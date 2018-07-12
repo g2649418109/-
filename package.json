@@ -1,0 +1,12 @@
+{
+  "name": "xiaoti",
+  "version": "0.0.1",
+  "description": "一些小题目集锦",
+  "author": "guoguo <2649418109@qq.com>",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
+    "start": "npm run dev",
+    "build": "node build/build.js"
+  }
+}
